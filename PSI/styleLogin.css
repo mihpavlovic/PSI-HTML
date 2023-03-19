@@ -46,6 +46,10 @@ body {
     border-radius: 30px;
 }
 
+#naslovReg{
+    margin-bottom: 50px;
+}
+
 
 #tekst_logovanje{
     font-size: 70px;
@@ -71,7 +75,27 @@ body {
     color: white;
     background-color: #e04763;
     border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
+
+#mainDiv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+#loginForma{
+    outline: 5px double black;
+    outline-offset: 5px;
+    padding: 30px 50px 30px 50px;
+
+} 
+
+.radio{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /*===============================================================*/
