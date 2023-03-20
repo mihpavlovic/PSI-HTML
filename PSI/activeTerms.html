@@ -46,9 +46,9 @@
             </div>
         </div>
         <!---------------------------------------------------------------------------------------------->
-        <div class="container" id="main_body" style="background-color: white;">
-            <div class="row" id="row1">
-                <h2 id="naslovReg">Izmena informacija korisničkog profila:</h2>
+        <div class="row" id="main_body" style="background-color: white;">
+            <div id="mainDiv" class="col-sm-4 text-center mx-auto">
+                <h2 id="naslovReg">Registacija novog korisnika</h2>
                 <form id="loginForma">
                     <div class="form-group">
                         <label for="name">Ime:</label>
@@ -73,14 +73,26 @@
                     <div class="form-group">
                         <label for="phoneNumber"> Broj telefona:</label>
                         <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber">
-                    </div>         
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
+                    </div>
+                    <div class="form-group">
+                        <label for="JMBG"> JMBG:</label>
+                        <input type="number" class="form-control" id="JMBG" name="JMBG">
+                    </div>
+                    <div class="radio form-group">
+                        <label for="sex">Pol:</label>
+                        <input type="radio" name="sex" id="sexM" value="M">
+                        <label for="sexM">M</label>
+                        <input type="radio" name="sex" id="sexF" value="M">
+                        <label for="sexF">F</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Registruj se</button>
                 </form>
             </div>
-            
         </div>
+            
         <!---------------------------------------------------------------------------------------------->
-        <div class="container" id="footer" style="background-color: white;">
+        <div class="row" id="footer" style="background-color: white;">
             <div class="col-sm-12 text-center">
                 <p>Autori: Mihailo Pantović, Mihailo Pavlović, Stevan Adžić, Dimitrije Glišić</p>
             </div>

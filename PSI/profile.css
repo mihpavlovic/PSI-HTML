@@ -44,6 +44,8 @@ body {
 #main_body{
     margin-bottom: 10px;
     border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #naslovReg{
@@ -54,6 +56,7 @@ body {
 .paragraf{
     font-size: 25px
 }
+
 .sitniji_paragraf{
     font-size: 17px
 }
@@ -72,15 +75,17 @@ body {
     padding-right: 30px;
 }
 
-#row1>div>img{
-    outline: 5px double black;
-    outline-offset: 5px;
+#main_body>div>img{
+
     margin-bottom: 20px;
 }
 
-#row1>.col2{
+#main_body>#col2{
     outline: 5px double black;
     outline-offset: 5px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .btn{
@@ -94,6 +99,16 @@ body {
 
 #btn1{
     margin-right: 20px;
+    margin-left: 50px;
+}
+
+
+.termin{
+    margin-top: 30px;
+    outline: 5px double black;
+    outline-offset: 5px;
+    border-radius: 30px;
+    padding-left: 20px;
 }
 
 /*===============================================================*/
