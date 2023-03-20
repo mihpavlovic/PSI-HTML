@@ -39,7 +39,7 @@
                             <a href="#" class="nav-link">Kontakt</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Moj nalog</a>
+                            <a href="profile.html" class="nav-link">Moj nalog</a>
                         </li>
                     </ul>
                 </nav>
@@ -48,30 +48,39 @@
         <!---------------------------------------------------------------------------------------------->
         <div class="container" id="main_body" style="background-color: white;">
             <div class="row" id="row1">
-                <div class="col1 col-sm-4">
-                    <img src="slike/profil.jpg" alt="ProfilSlika">
-
-                    <a href="#" id="btn1">
-                        <buttontype="button" class="btn text-center">Pregled aktivnih termina</button>\
-                    </a>
-
-                    <a href="profileChange.html" id="btn2">
-                        <buttontype="button" class="btn text-center">Izmena profila</button>\
-                    </a>
-                </div>
-                <div class="col2 col-sm-8">
-                    <p style="font-size: 30px;">Ime: Petar</p>
-                    <hr>
-                    <p style="font-size: 30px;">Prezime: Petrović</p>
-                    <hr>
-                    <p style="font-size: 30px;">Broj telefona: +381/061234567</p>
-                    <hr>
-                    <p style="font-size: 30px;">Informacije o korisniku: Dr Petar Petrović je diplomirao na Medicinskom fakultetu Univerziteta u Beogradu sa najvišim ocenama.
-                        Specijalizaciju iz Opšte hirurgije je završio na Prvoj hirurškoj klinici Univerzitetskog Kliničkog Centra Srbije 1995. godine.
-                        Magistrirao je iz oblasti Bolesti digestivnog sistema sa temom Procena operativne traume laparoskopske, mini-laparotomijske i klasične holecistektomije 1998. godine.
-                        Doktorirao je sa temom Operativne povrede žučnih vodova tokom laparoskopske holecistektomije na Medicinskom fakultetu Univerziteta u Beogradu 2007. godine.
-                        Tokom svoje karijere stručno se usavršavao kod vodećih eksperata iz oblasti u Nemačkoj, Velikoj Britaniji, Italiji i Španiji.</p>
-                </div>
+                <h2 id="naslovReg">Izmena informacija korisničkog profila:</h2>
+                <form id="loginForma">
+                    <div class="form-group">
+                        <label for="name">Ime:</label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="surname">Prezime:</label>
+                        <input type="text" class="form-control" id="surname" name="surname">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email adresa:</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Lozinka:</label>
+                        <input type="password" class="form-control" id="password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password"> Potvrdi lozinku:</label>
+                        <input type="password" class="form-control" id="confirm-password" name="confirm-password">
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber"> Broj telefona:</label>
+                        <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber">
+                    </div>
+                    <div class="form-group">
+                        <label for="profileInfo"> Informacije o korisniku:</label>
+                        <input type="text" class="form-control" id="profileInfo" name="profileInfo">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Izmeni</button>
+                </form>
             </div>
             
         </div>
