@@ -17,12 +17,14 @@ body {
 .nav-item>a{
     outline: 5px solid #e04763;
     border-radius: 10px;
+    color: white
     
 }
 
 .nav-item:hover{
     background-color: #e04763;
     border-radius: 10px;
+    
     
 }
 #header{
