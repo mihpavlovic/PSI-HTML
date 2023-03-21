@@ -1,7 +1,7 @@
 
 body {
     /*background-image: url(pozadina1.jpg);*/
-    background-color: #96d900;
+    background-color: #e04763/*#96d900*/;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -72,7 +72,7 @@ body {
 .btn{
     
     color: white;
-    background-color: #e04763;
+    background-color: #96d900/*#e04763*/;
     border-radius: 20px;
 
 }
