@@ -41,56 +41,52 @@
                         <li class="nav-item">
                             <a href="profile.html" class="nav-link">Moj nalog</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Odjava</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
         </div>
         <!---------------------------------------------------------------------------------------------->
         <div class="row" id="main_body" style="background-color: white;">
-            <div id="mainDiv" class="col-sm-4 text-center mx-auto">
-                <h2 id="naslovReg">Registacija novog korisnika</h2>
-                <form id="loginForma">
-                    <div class="form-group">
-                        <label for="name">Ime:</label>
-                        <input type="text" class="form-control" id="name" name="name">
-                    </div>
-                    <div class="form-group">
-                        <label for="surname">Prezime:</label>
-                        <input type="text" class="form-control" id="surname" name="surname">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email adresa:</label>
-                        <input type="email" class="form-control" id="email" name="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Lozinka:</label>
-                        <input type="password" class="form-control" id="password" name="password">
-                    </div>
-                    <div class="form-group">
-                        <label for="confirm-password"> Potvrdi lozinku:</label>
-                        <input type="password" class="form-control" id="confirm-password" name="confirm-password">
-                    </div>
-                    <div class="form-group">
-                        <label for="phoneNumber"> Broj telefona:</label>
-                        <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber">
-                    </div>
-                    <div class="form-group">
-                        <label for="JMBG"> JMBG:</label>
-                        <input type="number" class="form-control" id="JMBG" name="JMBG">
-                    </div>
-                    <div class="radio form-group">
-                        <label for="sex">Pol:</label>
-                        <input type="radio" name="sex" id="sexM" value="M">
-                        <label for="sexM">M</label>
-                        <input type="radio" name="sex" id="sexF" value="M">
-                        <label for="sexF">F</label>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary">Registruj se</button>
-                </form>
+            <div id="col1" class="col1 col-sm-4">
+                <img src="slike/profil.jpg" alt="ProfilSlika">
+
+                <a href="activeTerms.html" id="btn1">
+                    <button type="button" class="btn text-center">Pregled termina</button>
+                </a>
+                <a href="profileChange.html" id="btn2">
+                    <button type="button" class="btn text-center">Izmena profila</button>
+                </a>
+                <a href="index.html" id="btn3">
+                    <button type="button" class="btn text-center">Deaktivacija profila</button>
+                </a>
+            </div>
+            <div id="col2" class="col2 col-sm-7">
+                <div class="termin">
+                    <p class="paragraf">Termin: Pregled 1</p>
+                    <p class="paragraf">Status: Zakazan</p>
+                    <p class="paragraf">Adresa: Omladinskih brigada 1</p>
+                    <p class="paragraf">Doktor: Petar Petrović</p>
+                    <button type="button" class="btn">Otkaži</button>
+                </div>
+                <div class="termin">
+                    <p class="paragraf">Termin: Pregled 1</p>
+                    <p class="paragraf">Status: Zakazan</p>
+                    <p class="paragraf">Adresa: Omladinskih brigada 1</p>
+                    <p class="paragraf">Doktor: Petar Petrović</p>
+                    <button type="button" class="btn">Otkaži</button>
+                </div>
+                <div class="termin">
+                    <p class="paragraf">Termin: Pregled 1</p>
+                    <p class="paragraf">Status: Gotov</p>
+                    <p class="paragraf">Adresa: Omladinskih brigada 1</p>
+                    <p class="paragraf">Doktor: Petar Petrović</p>
+                    <button type="button" class="btn" disabled>Otkaži</button>
+                </div>
             </div>
         </div>
-            
         <!---------------------------------------------------------------------------------------------->
         <div class="row" id="footer" style="background-color: white;">
             <div class="col-sm-12 text-center">

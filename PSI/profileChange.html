@@ -41,15 +41,17 @@
                         <li class="nav-item">
                             <a href="profile.html" class="nav-link">Moj nalog</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Odjava</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
         </div>
         <!---------------------------------------------------------------------------------------------->
-        <div class="container" id="main_body" style="background-color: white;">
-            <div class="row" id="row1">
+            <div class="row" id="main_body" style="background-color: white;">
                 <h2 id="naslovReg">Izmena informacija korisničkog profila:</h2>
-                <form id="loginForma">
+                <form id="ImeIPrezime">
                     <div class="form-group">
                         <label for="name">Ime:</label>
                         <input type="text" class="form-control" id="name" name="name">
@@ -58,10 +60,16 @@
                         <label for="surname">Prezime:</label>
                         <input type="text" class="form-control" id="surname" name="surname">
                     </div>
+                    <button type="submit" class="btn btn-primary">Izmeni</button>
+                </form>
+                <form id="mejl">
                     <div class="form-group">
                         <label for="email">Email adresa:</label>
                         <input type="email" class="form-control" id="email" name="email">
                     </div>
+                    <button type="submit" class="btn btn-primary">Izmeni</button>
+                </form>
+                <form class="password">
                     <div class="form-group">
                         <label for="password">Lozinka:</label>
                         <input type="password" class="form-control" id="password" name="password">
@@ -70,6 +78,10 @@
                         <label for="confirm-password"> Potvrdi lozinku:</label>
                         <input type="password" class="form-control" id="confirm-password" name="confirm-password">
                     </div>
+                    <button type="submit" class="btn btn-primary">Izmeni</button>
+
+                </form>
+                <form>
                     <div class="form-group">
                         <label for="phoneNumber"> Broj telefona:</label>
                         <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber">
@@ -77,10 +89,8 @@
                     <button type="submit" class="btn btn-primary">Izmeni</button>
                 </form>
             </div>
-            
-        </div>
         <!---------------------------------------------------------------------------------------------->
-        <div class="container" id="footer" style="background-color: white;">
+        <div class="row" id="footer" style="background-color: white;">
             <div class="col-sm-12 text-center">
                 <p>Autori: Mihailo Pantović, Mihailo Pavlović, Stevan Adžić, Dimitrije Glišić</p>
             </div>
