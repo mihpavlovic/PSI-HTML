@@ -49,7 +49,7 @@
         </div>
         <div class="row" id="main_body" style="background-color: white;">
             <div id="mainDiv" class="col-sm-4 text-center mx-auto">
-                <h2 id="naslovReg">Registacija novog korisnika</h2>
+                <h2 id="naslovReg">Registacija novog doktora</h2>
                 <form id="loginForma">
                     <div class="form-group">
                         <label for="name">Ime:</label>
@@ -75,16 +75,25 @@
                         <label for="phoneNumber"> Broj telefona:</label>
                         <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber">
                     </div>
-                    <div class="form-group">
-                        <label for="JMBG"> JMBG:</label>
-                        <input type="number" class="form-control" id="JMBG" name="JMBG">
-                    </div>
                     <div class="radio form-group">
                         <label for="sex">Pol:</label>
                         <input type="radio" name="sex" id="sexM" value="M">
                         <label for="sexM">M</label>
                         <input type="radio" name="sex" id="sexF" value="M">
                         <label for="sexF">F</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="lokacija">Lokacija:</label>
+                        <select name="lokacija" class="form-control" id="lokacija">
+                            <option value="Bul. Kralja Aleksandra">Osmeh++ Bul. Kralja Aleksandra, Beograd</option>
+                            <option value="ul. Mihajla Pupina">Osmeh++ Bul. Mihajla Pupina,Novi Beograd</option>
+                            <option value="Novi Sad">Osmeh++, Novi Sad</option>
+                            <option value="Niš">Osmeh++, Niš</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="biografija"> Biografijaa:</label>
+                        <input type="text" class="form-control" id="biografija" name="biografija">
                     </div>
                     
                     <button type="submit" class="btn btn-primary">Registruj se</button>

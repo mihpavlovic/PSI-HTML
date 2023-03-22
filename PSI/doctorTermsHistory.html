@@ -43,65 +43,46 @@
                         </li>
                         <li class="nav-item">
                             <a href="index.html" class="nav-link">Odjava</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
         </div>
         <!---------------------------------------------------------------------------------------------->
-            <div class="row" id="main_body" style="background-color: white;">
-                <h2 id="naslovReg">Izmena informacija korisničkog profila:</h2>
-                <form id="ImeIPrezime">
-                    <div class="form-group">
-                        <label for="name">Ime:</label>
-                        <input type="text" class="form-control" id="name" name="name">
-                    </div>
-                    <div class="form-group">
-                        <label for="surname">Prezime:</label>
-                        <input type="text" class="form-control" id="surname" name="surname">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
-                </form>
-                <form id="mejl">
-                    <div class="form-group">
-                        <label for="email">Email adresa:</label>
-                        <input type="email" class="form-control" id="email" name="email">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
-                </form>
-                <form class="password">
-                    <div class="form-group">
-                        <label for="password">Lozinka:</label>
-                        <input type="password" class="form-control" id="password" name="password">
-                    </div>
-                    <div class="form-group">
-                        <label for="confirm-password"> Potvrdi lozinku:</label>
-                        <input type="password" class="form-control" id="confirm-password" name="confirm-password">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
-
-                </form>
-                <form>
-                    <div class="form-group">
-                        <label for="phoneNumber"> Broj telefona:</label>
-                        <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber">
-                    </div>         
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
-                </form>
-                <form>
-                    <div class="form-group">
-                        <label for="information"> Biografija:</label>
-                        <input type="text" class="form-control" id="information" name="information">
-                    </div>         
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
-                </form>
-                <form>
-                    <div class="form-group">
-                        <label for="picture"> Nova slika:</label>
-                        <input type="image" class="form-control" id="picture" name="picture">
-                    </div>         
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
-                </form>
+        <div class="row" id="main_body" style="background-color: white;">
+            <div id="col1" class="col1 col-sm-4">
+                <img src="slike/profil.jpg" alt="ProfilSlika">
+                <div>
+                    <a href="activeTermsDoctor.html" id="btn1">
+                        <button type="button" class="btn text-center">Raspored</button>
+                    </a>
+                </div>
+                <div>
+                    <a href="doctorTermsHistory.html" id="btn1">
+                        <button type="button" class="btn text-center">Istorija</button>
+                    </a>
+                </div>
+                <div>
+                    <a href="profileChangeDoctor.html" id="btn1">
+                        <button type="button" class="btn text-center">Izmena profila</button>
+                    </a>
+                </div>
+                <div>
+                    <a href="index.html" id="btn1">
+                        <button type="button" class="btn text-center">Deaktivacija profila</button>
+                    </a>
+                </div>     
             </div>
+            <div id="col2" class="col2 col-sm-7">
+                <div class="termin">
+                    <p class="paragraf">Termin: Pregled 1</p>
+                    <p class="paragraf">Status: Gotov</p>
+                    <p class="paragraf">Pacijent: Nikola Nikolić</p>
+                    <p class="paragraf">Termin: 10:00-11:00</p>
+                    <p class="paragraf">Datum: 16.1.2024.</p>
+                </div>
+            </div>
+        </div>
         <!---------------------------------------------------------------------------------------------->
         <div class="row" id="footer" style="background-color: white;">
             <div class="col-sm-12 text-center">
