@@ -1,7 +1,7 @@
 
 body {
     /*background-image: url(pozadina1.jpg);*/
-    background-color: #e04763/*#96d900*/;
+    background-color: #96d900;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -17,14 +17,12 @@ body {
 .nav-item>a{
     outline: 5px solid #e04763;
     border-radius: 10px;
-    color: white
     
 }
 
 .nav-item:hover{
     background-color: #e04763;
     border-radius: 10px;
-    
     
 }
 #header{
@@ -46,6 +44,10 @@ body {
 #main_body{
     margin-bottom: 10px;
     border-radius: 30px;
+}
+
+#naslovReg{
+    margin-bottom: 50px;
 }
 
 
@@ -71,9 +73,29 @@ body {
 .btn{
     
     color: white;
-    background-color: #96d900/*#e04763*/;
+    background-color: #e04763;
     border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
+}
+
+#mainDiv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+#loginForma{
+    outline: 5px double black;
+    outline-offset: 5px;
+    padding: 30px 50px 30px 50px;
+
+} 
+
+.radio{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /*===============================================================*/
