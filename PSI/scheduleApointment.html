@@ -50,19 +50,52 @@
         </div>
         <div class="row" id="main_body" style="background-color: white;">
             <div id="mainDiv" class="col-sm-4 text-center mx-auto">
-                <form id="loginForma">
+                <h2 id="naslovReg">Zakazivanje termina</h2>
+                <form id="zakazivanjeForma">
                     <div class="form-group">
-                        <label for="username">Email adresa:</label>
-                        <input type="text" class="form-control" id="username" name="username">
+                        <label for="lokacija">Lokacija:</label>
+                        <select name="lokacija" class="form-control" id="lokacija">
+                            <option value="Bul. Kralja Aleksandra">Osmeh++ Bul. Kralja Aleksandra, Beograd</option>
+                            <option value="ul. Mihajla Pupina">Osmeh++ Bul. Mihajla Pupina,Novi Beograd</option>
+                            <option value="Novi Sad">Osmeh++, Novi Sad</option>
+                            <option value="Niš">Osmeh++, Niš</option>
+                        </select>
                     </div>
                     <div class="form-group">
-                        <label for="password">Lozinka:</label>
-                        <input type="password" class="form-control" id="password" name="password">
+                        <label for="lokacija">Doktor:</label>
+                        <select name="doktor" class="form-control" id="doktor">
+                            <option value="Petar Petrović">Petar Petrović</option>
+                            <option value="Mika Zečević">Mika Zečević</option>
+                        </select>
                     </div>
-                    <button type="submit" class="btn">Prijava</button>
-                    <p class="text-center sitniji_paragraf">
-                        Nemaš nalog? <a href="register.html">Registruj se</a> </p>
-                    </p>
+                    <div class="form-group">
+                        <label for="datum">Datum termina:</label>
+                        <input type="date" class="form-control" id="datum">
+                    </div>
+                    <div class="radio form-group">
+                        <label for="Vreme">Termin:</label>
+                        <input type="radio" name="vreme" value=1>
+                        <label for="vreme">08:00-09:00</label>
+                        <input type="radio" name="vreme" value=2>
+                        <label for="vreme">09:00-10:00</label>
+                        <input type="radio" name="vreme" value=3>
+                        <label for="vreme">10:00-11:00</label>
+                        <input type="radio" name="vreme" value=4>
+                        <label for="vreme">11:00-12:00</label>
+                        <input type="radio" name="vreme" value=5>
+                        <label for="vreme">12:00-13:00</label>
+                        <input type="radio" name="vreme" value=6>
+                        <label for="vreme">13:00-14:00</label>
+                        <input type="radio" name="vreme" value=7>
+                        <label for="vreme">14:00-15:00</label>
+                        <input type="radio" name="vreme" value=8>
+                        <label for="vreme">15:00-16:00</label>
+                        <input type="radio" name="vreme" value=9>
+                        <label for="vreme">16:00-17:00</label>
+                        <input type="radio" name="vreme" value=10>
+                        <label for="vreme">17:00-18:00</label>
+                    </div>      
+                    <button type="submit" class="btn btn-primary">Zakaži</button>
                 </form>
             </div>
         </div>
