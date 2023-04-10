@@ -1,0 +1,127 @@
+
+body {
+    /*background-image: url(pozadina1.jpg);*/
+    background-color: #e04763;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.nav-item>a{
+    outline: 5px solid #e04763;
+    border-radius: 10px;
+    
+}
+
+.nav-item:hover{
+    background-color: #e04763;
+    border-radius: 10px;
+    
+}
+#header{
+    font-size: 22px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    
+
+}
+
+.navbar-brand{
+    margin-right: 10px;
+    /*padding-left: 30px;*/
+}
+
+/*==========================================================*/
+
+#main_body{
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#naslovReg{
+    margin-bottom: 50px;
+}
+
+
+.paragraf{
+    font-size: 25px
+}
+
+.sitniji_paragraf{
+    font-size: 17px
+}
+
+
+#mainDiv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+#row1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#main_body>div>img{
+
+    margin-bottom: 20px;
+}
+
+#main_body>#col2{
+    outline: 5px double black;
+    outline-offset: 5px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    color: white;
+    background-color: #e04763;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#btn1{
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+#btn3{
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+
+.termin{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    outline: 5px double black;
+    outline-offset: 5px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+/*===============================================================*/
+
+#footer{
+    border-radius: 30px;
+
+}

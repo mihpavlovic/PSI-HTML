@@ -1,0 +1,31 @@
+1. Bzvz? -
+2. Ne menjamo -
+3. Linija u SSU -
+4. Ne menja se -
+5. Uvezi HREF -
+6. Promeni u SSU? -
+7. Pojasniti? =
+8. Uvezi HREF -
+9. !!! Treba da se napravi stranica
+10. Uvezi HREF -
+11. Promeni liniju u SSU -
+12. Izmeni dugme u HTML -
+13. !!! Fali stranica za Dodavanje Ordinacije
+14. !!! Fali stranica za Izmenu usluge
+15. Promeni ime dugmeta u HTML -
+16. Greska u kucanju SSU - 
+17. Kucanje SSU -
+18. !!! Fali stranica za Dodavanje nove usluge
+19. !!! Praviti neku tabelu idk (moram videti)
+20. Promeni ime dugmeta HTML -
+21. Dugme u HTML =
+22. Promeni ime HTML dokumenta -
+23. Dodamo input novi/BMK -
+24. Retardirano =
+25. Azuriraj SSU -
+26. Neki alert ili nesto za registraciju
+27. Alert da treba da bude prijavljen korisni
+28. Neka notifikacija da kaze da nisu unete sve info za zakazivanje termina
+
+
+Fali: Brisanje i izmena ordinacije html
