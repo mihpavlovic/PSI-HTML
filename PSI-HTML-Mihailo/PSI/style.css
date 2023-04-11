@@ -1,7 +1,7 @@
 
 body {
     /*background-image: url(pozadina1.jpg);*/
-    background-color: #e04763/*#96d900*/;
+    background-color: #dcdcdc/*#e04763#96d900*/;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -10,26 +10,27 @@ body {
     margin-bottom: 20px;
 }
 
-.nav-item{
-    padding: 10px;
+.proba{
+    display:flex;
+    align-items:center; /* vertically aligned! */
+    justify-content: center;
 }
 
 .nav-item>a{
-    outline: 5px solid #e04763;
-    border-radius: 10px;
+    border-bottom: 2px solid white;
     color: white
     
 }
 
 .nav-item:hover{
-    background-color: #e04763;
-    border-radius: 10px;
+    
+   
+    border-bottom: 2px solid gray;
     
     
 }
 #header{
     font-size: 22px;
-    border-radius: 30px;
     margin-bottom: 10px;
     background-color: white;
     
@@ -45,7 +46,6 @@ body {
 
 #main_body{
     margin-bottom: 10px;
-    border-radius: 30px;
 }
 
 
@@ -72,13 +72,19 @@ body {
     
     color: white;
     background-color: #96d900/*#e04763*/;
-    border-radius: 20px;
+    border-radius: 5px;
 
 }
+
+.izabran{
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+
+}
+
+.zaokrugli{
+    border-radius: 2px;
+}
+
 
 /*===============================================================*/
-
-#footer{
-    border-radius: 30px;
-
-}
