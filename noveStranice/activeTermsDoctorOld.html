@@ -60,67 +60,36 @@
                         <li><a href="index.html" class="dropdown-item"> Odjava</a></li>
                     </ul>
             </div>
-            
 
         </div>
         <div class="row zaokrugli" id="main_body" style="background-color: white;">
-            <div id="mainDiv" class="col-sm-12">
-                <h2 id="naslovReg">Izmena informacija lekarskog profila:</h2>
-                <form id="ImeIPrezime">
-                    <div class="form-group">
-                        <label for="name">Ime:</label>
-                        <input type="text" class="form-control" id="name" name="name">
-                    </div>
-                    <div class="form-group">
-                        <label for="surname">Prezime:</label>
-                        <input type="text" class="form-control" id="surname" name="surname">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
-                </form>
-                <form id="mejl">
-                    <div class="form-group">
-                        <label for="email">Email adresa:</label>
-                        <input type="email" class="form-control" id="email" name="email">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
-                </form>
-                <form class="password">
-                    <div class="form-group">
-                        <label for="password">Prethodna lozinka:</label>
-                        <input type="password" class="form-control" id="password" name="password">
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Lozinka:</label>
-                        <input type="password" class="form-control" id="password" name="password">
-                    </div>
-                    <div class="form-group">
-                        <label for="confirm-password"> Potvrdi lozinku:</label>
-                        <input type="password" class="form-control" id="confirm-password" name="confirm-password">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
-
-                </form>
-                <form>
-                    <div class="form-group">
-                        <label for="phoneNumber"> Broj telefona:</label>
-                        <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber">
-                    </div>         
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
-                </form>
-                <form>
-                    <div class="form-group">
-                        <label for="information"> Biografija:</label>
-                        <input type="text" class="form-control" id="information" name="information">
-                    </div>         
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
-                </form>
-                <form>
-                    <div class="form-group">
-                        <label for="picture"> Nova slika:</label>
-                        <input type="image" class="form-control" id="picture" name="picture">
-                    </div>         
-                    <button type="submit" class="btn btn-primary">Izmeni</button>
-                </form>
+            <div id="col1" class="col1 col-sm-4">
+                <img src="slike/profil.jpg" alt="ProfilSlika">
+                <div>
+                    <a href="index.html" id="btn1">
+                        <button type="button" class="btn text-center">Deaktivacija profila</button>
+                    </a>
+                </div>
+            </div>
+            <div id="col2" class="col2 col-sm-7">
+                <div class="termin">
+                    <p class="paragraf">Termin: Pregled 1</p>
+                    <p class="paragraf">Status: Zakazan</p>
+                    <p class="paragraf">Pacijent: Vuk Stefanović Karadžić</p>
+                    <p class="paragraf">Termin: 8:00-9:00</p>
+                    <p class="paragraf">Datum: 30.1.2024.</p>
+                    <button type="button" class="btn">Otkaži termin</button>
+                    <button type="button" class="btn">Završi termin</button>
+                </div>
+                <div class="termin">
+                    <p class="paragraf">Termin: Pregled 1</p>
+                    <p class="paragraf">Status: Zakazan</p>
+                    <p class="paragraf">Pacijent: Milica Pavlović</p>
+                    <p class="paragraf">Termin: 14:00-15:00</p>
+                    <p class="paragraf">Datum: 30.6.2024.</p>
+                    <button type="button" class="btn">Otkaži termin</button>
+                    <button type="button" class="btn">Završi termin</button>
+                </div>
             </div>
         </div>
         <div class="row zaokrugli" id="footer" style="background-color: white;">
