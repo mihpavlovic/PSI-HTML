@@ -12,65 +12,84 @@
 </head>
 <body>
     <div class="container">
-        <div class="row" id="header">
-            <div class="col-sm-12">
-                <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="row zaokrugli" id="header">
+            <div class="col-12 col-sm-12 col-lg-10">
+                <nav class="navbar navbar-expand-lg navbar-light">
                     <a href="index.html" class="navbar-brand">
                         <img src="slike/Untitled.jpg" alt="Logo" width ="150px">
                     </a>
-                    <ul class="navbar-nav">
-                        <!--<li class="nav-item">
-                            <a href="index.html" class="navbar-brand">
-                                <img src="Untitled.jpg" alt="Logo" style="width: 50%;">
-                            </a>
-                        </li>-->
-                        <li class="nav-item">
-                            <a href="uslugeICeneAdmin.html" class="nav-link">Usluge i cene</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pregledOrdinacijaAdmin.html" class="nav-link">Ordinacije</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pregledDoktorAdmin.html" class="nav-link">Doktori</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="scheduleApointment.html" class="nav-link">Zakazivanje termina</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="kontakt.html" class="nav-link">Kontakt</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="profile.html" class="nav-link">Moj nalog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Odjava</a>
-                        </li>
-                    </ul>
+
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="uslugeICene.html" class="nav-link">Usluge i cene</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="pregledOrdinacija.html" class="nav-link">Ordinacije</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="pregledDoktora.html" class="nav-link">Doktori</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="scheduleApointment.html" class="nav-link">Zakazivanje termina</a>
+                            </li>
+                            <li class="nav-item izabran">
+                                <a href="kontakt.html" class="nav-link">Kontakt</a>
+                            </li>
+ 
+
+                        </ul>
+                    </div>
+                    
                 </nav>
             </div>
+
+            <div class="col-12 col-sm-12 col-lg-2 align-self-center text-center">
+                
+                    <button type="button" class="dropdown-toggle btn" data-bs-toggle="dropdown" style="vertical-align: middle;">
+                        Administrator
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="profileAdmin.html" class="dropdown-item"> Moj nalog</a></li>
+                        <li><a href="#" class="dropdown-item"> Pregled korisnika</a></li>
+                        <li><a href="profileChange.html" class="dropdown-item"> Izmena profila</a></li>
+                        <li><a href="index.html" class="dropdown-item"> Odjava</a></li>
+                    </ul>
+                    </div>
+            
+
         </div>
-        <!---------------------------------------------------------------------------------------------->
-        <div class="row" id="main_body" style="background-color: white;">
+        <div class="row zaokrugli" id="main_body" style="background-color: white;">
             <div id="col1" class="col1 col-sm-4">
                 <img src="slike/profil.jpg" alt="ProfilSlika">
-                <div>
-                    <a href="pregledKorisnikaAdmin.html" id="btn1">
-                        <button type="button" class="btn text-center">Pregled korisnika</button>
-                    </a>
-                </div>
+
             </div>
             <div id="col2" class="col2 col-sm-7">
-                <p style="font-size: 30px;">Ime: Admin</p>
-                <hr>
-                <p style="font-size: 30px;">Prezime: Admin</p>
-                <hr>
-                <p style="font-size: 30px;">Broj telefona: +381/061234567</p>
-                <hr>
-                <p style="font-size: 30px;">Email adresa: admin@gmail.com</p>      
+                <table class="table">
+                    <tr>
+                        <td><p style="font-size: 30px;">Ime:</p></td>
+                        <td><p style="font-size: 30px;">Admin</p></td>
+                    </tr>
+                    <tr>
+                        <td><p style="font-size: 30px;">Prezime:</p></td>
+                        <td><p style="font-size: 30px;">Admin</p></td>
+                    </tr>
+                    <tr>
+                        <td><p style="font-size: 30px;">Broj telefona:</p></td>
+                        <td><p style="font-size: 30px;">+381/061234567</p></td>
+                    </tr>
+                    <tr>
+                        <td><p style="font-size: 30px;">Email adresa:</p></td>
+                        <td><p style="font-size: 30px;">admin@gmail.com</p></td>
+                    </tr>
+                </table>
             </div>
         </div>
-        <!---------------------------------------------------------------------------------------------->
-        <div class="row" id="footer" style="background-color: white;">
+        <div class="row zaokrugli" id="footer" style="background-color: white;">
             <div class="col-sm-12 text-center">
                 <p>Autori: Mihailo Pantović, Mihailo Pavlović, Stevan Adžić, Dimitrije Glišić</p>
             </div>
@@ -79,3 +98,6 @@
     
 </body>
 </html>
+
+
+
